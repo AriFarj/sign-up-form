@@ -1,34 +1,60 @@
 body {
+    margin: 0px;
+}
+.container {
     display: flex;
-}
-
-.image-side {
-    /* position: relative; */
-    /* width: 40%; */
-    
-}
-
-.card-image {
     height: 100vh;
-    width: auto;
-    /* position: absolute; */
-    z-index: -1;
 }
 
-.card-body {
+.left {
+    display: flex ;
+    position: relative;
+    background-image: url("./src/side-image.jpg");
+    flex: 2,0,0%;
+    background-size:cover;
+    background-position: center;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
     position: absolute;
-    width: 40%;
-    background: black;
-    opacity: 0.6;
-    color: white;
-    font-size: 6rem;
+    top: 30vh;
+    height: 18vh;
+    width: 100%;
+    gap: 10px;
+    display:flex; 
     align-items: center;
     justify-content: center;
-    display: flex;
-    top: 16rem;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
 }
 
-.card-body>img {
-    width: 100px;
+.odin-logo {
+    width: 10vh;
     height: auto;
+}
+
+.logo-text {
+    font-size: 6vw;
+}
+
+.left-footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.left-footer > a
+{
+    text-decoration: underline;
+    color: white
+}
+
+.right {
+    background-color: #d6d6d6;
+    width:  65%;
 }
