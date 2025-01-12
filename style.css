@@ -1,0 +1,7 @@
+body {
+    display:flex;
+}
+
+.image-side {
+    max-width: 30vh;
+}
