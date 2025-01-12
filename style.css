@@ -1,7 +1,34 @@
 body {
-    display:flex;
+    display: flex;
 }
 
 .image-side {
-    max-width: 30vh;
+    /* position: relative; */
+    /* width: 40%; */
+    
+}
+
+.card-image {
+    height: 100vh;
+    width: auto;
+    /* position: absolute; */
+    z-index: -1;
+}
+
+.card-body {
+    position: absolute;
+    width: 40%;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    font-size: 6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 16rem;
+}
+
+.card-body>img {
+    width: 100px;
+    height: auto;
 }
