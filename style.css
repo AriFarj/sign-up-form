@@ -55,7 +55,7 @@ body {
 }
 
 .right {
-    background-color: #f1f1f1;
+    background-color: #f0eeee;
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -100,9 +100,27 @@ input {
     line-height: 1.3;
     font-size: 20px;
 }
-input:invalid:not(:placeholder-shown)  {
+
+input:invalid:not(:placeholder-shown) {
     outline: 1px solid rgb(255, 112, 112);
 }
+
 input:focus {
     outline: 2px solid rgb(146, 146, 255);
+}
+
+.account-container {
+    margin: 2.5rem;
+}
+
+.account-container>button {
+    background-color: #859096;
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+.account-container>p>a{
+    text-decoration: none;
+    color: #859096;
+    font-weight: 800
 }
